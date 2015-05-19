@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		760164CB1B0BAA370012A9CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760164CA1B0BAA370012A9CF /* Main.storyboard */; };
+		760164CD1B0BBD270012A9CF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760164CC1B0BBD270012A9CF /* Parse.framework */; };
 		A2EFE65F1A9A7696003D0B57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFE65E1A9A7696003D0B57 /* AppDelegate.swift */; };
 		A2EFE6611A9A7696003D0B57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFE6601A9A7696003D0B57 /* ViewController.swift */; };
 		A2EFE6641A9A7696003D0B57 /* Mainold.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EFE6621A9A7696003D0B57 /* Mainold.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		760164CA1B0BAA370012A9CF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		760164CC1B0BBD270012A9CF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		A2EFE6591A9A7696003D0B57 /* Gratitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gratitude.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EFE65D1A9A7696003D0B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2EFE65E1A9A7696003D0B57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				760164CD1B0BBD270012A9CF /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		A2EFE6501A9A7696003D0B57 = {
 			isa = PBXGroup;
 			children = (
+				760164CC1B0BBD270012A9CF /* Parse.framework */,
 				A2EFE65B1A9A7696003D0B57 /* Gratitude */,
 				A2EFE6711A9A7697003D0B57 /* GratitudeTests */,
 				A2EFE65A1A9A7696003D0B57 /* Products */,
@@ -342,6 +346,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Gratitude/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +360,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Gratitude/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
