@@ -27,6 +27,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         
         return true
+        
+        //add push notifications
+        
+        
+        
     }
     
 
