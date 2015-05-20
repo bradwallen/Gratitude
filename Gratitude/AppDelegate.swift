@@ -10,6 +10,7 @@ import UIKit
 import Parse
 import Bolts
 
+//////////////////////////////////////////////////////////////////////////////////
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -28,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
         
-        //add push notifications
+        ///////////////////////////////////////////////////////////////
         
         
         // Register for Push Notitications
@@ -57,19 +58,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             application.registerForRemoteNotificationTypes(types)
         }
         
-        
-        // Add FACEBOOK
-        // AppDelegate.swift
-        func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-            Parse.setApplicationId("parseAppId", clientKey:"parseClientKey")
-            PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions)
-        }
 
         
         
         
     }
-    
+   /////////////////////////////////////////////////////////////////////////////////////////////
 
 
     func applicationWillResignActive(application: UIApplication) {
@@ -96,6 +90,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 //add facebook handlers to app delegate
 func application(application: UIApplication,
     openURL url: NSURL,
@@ -112,7 +111,7 @@ func applicationDidBecomeActive(application: UIApplication) {
 
 
 
-
+//////////////////////////////////////////////////////////////
 
 //add parse push notifications
 func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
@@ -128,6 +127,8 @@ func application(application: UIApplication, didFailToRegisterForRemoteNotificat
         println("application:didFailToRegisterForRemoteNotificationsWithError: %@", error)
     }
 }
+//////////////////////////////////////////////////////////////
+
 
 func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
     PFPush.handlePush(userInfo)

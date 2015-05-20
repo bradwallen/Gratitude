@@ -27,6 +27,7 @@
 		76E71FAA1B0D08780027EC44 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E71FA91B0D08780027EC44 /* ParseFacebookUtils.framework */; };
 		76E71FAD1B0D0C230027EC44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E71FAC1B0D0C230027EC44 /* AppDelegate.m */; };
 		76E71FAF1B0D0DDA0027EC44 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E71FAE1B0D0DDA0027EC44 /* ParseFacebookUtilsV4.framework */; };
+		76E71FB11B0D17780027EC44 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E71FB01B0D17780027EC44 /* ParseUI.framework */; };
 		A2EFE65F1A9A7696003D0B57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFE65E1A9A7696003D0B57 /* AppDelegate.swift */; };
 		A2EFE6611A9A7696003D0B57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EFE6601A9A7696003D0B57 /* ViewController.swift */; };
 		A2EFE6661A9A7696003D0B57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EFE6651A9A7696003D0B57 /* Images.xcassets */; };
@@ -66,6 +67,7 @@
 		76E71FAB1B0D0C220027EC44 /* Gratitude-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gratitude-Bridging-Header.h"; sourceTree = "<group>"; };
 		76E71FAC1B0D0C230027EC44 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		76E71FAE1B0D0DDA0027EC44 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		76E71FB01B0D17780027EC44 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		A2EFE6591A9A7696003D0B57 /* Gratitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gratitude.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2EFE65D1A9A7696003D0B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2EFE65E1A9A7696003D0B57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				760164D91B0BBE630012A9CF /* libz.dylib in Frameworks */,
 				760164D71B0BBE560012A9CF /* MobileCoreServices.framework in Frameworks */,
 				760164D51B0BBE4E0012A9CF /* QuartzCore.framework in Frameworks */,
+				76E71FB11B0D17780027EC44 /* ParseUI.framework in Frameworks */,
 				760164D31B0BBE440012A9CF /* Security.framework in Frameworks */,
 				76E71FA51B0CFBB20027EC44 /* FBSDKCoreKit.framework in Frameworks */,
 				76E71FA31B0CFBAC0027EC44 /* FBSDKShareKit.framework in Frameworks */,
@@ -116,6 +119,7 @@
 		760164E21B0BBFF40012A9CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				76E71FB01B0D17780027EC44 /* ParseUI.framework */,
 				760164E51B0BC84E0012A9CF /* libsqlite3.dylib */,
 				760164E31B0BC4250012A9CF /* Bolts.framework */,
 				760164E01B0BBE7E0012A9CF /* AudioToolbox.framework */,
